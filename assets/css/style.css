@@ -1,0 +1,59 @@
+/*Estilos da página index.html*/
+
+.center{
+    text-align: center;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Estilos da página contato.html*/
+.mb-70{
+    margin-left: 70px;
+}
+ /*Configurações gerais do menu*/
+
+    #menu li{
+        display: inline; /*Colocando o display do menu em forma de linha */
+        padding: 20px;   /*Definindo o espaçamento entre as palavras do menu */
+        font-size: 20px; /*Definindo o tamanho da fonte do menu*/
+        
+
+    }
+    
+    #menu li a{ 
+        text-decoration: none; /*Retirando o efeito de link/sublinhado da tag a que fica sobre as palavras do menu*/
+        color:#1C3059 /* cor da fonte das palavras do menu */
+    }
+
+    #menu li a:hover{ /* Efeito que ao passar o mouse sob a palavra do menu a cor se altera */
+        color:darkcyan; /*Cor definida para o efeito citado acima*/
+    }
+
+    .p-30{
+        padding: 30px; /*Definindo pedding global, posso utilizar essa class em várias tags*/
+    }
+
+    .br-50{ /*Definições da class br-50*/
+        border-radius: 50%; /*definidno % do border da class*/
+
+    }
+
+    .tam-log-social{
+        width: 40px;
+        height: 40px;
+    }
+
+
+    
+
+
+
