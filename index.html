@@ -1,73 +1,139 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Título da minha página -->
-    <title>Perfil do Bueno</title>
+        <!-- Título da minha página -->
+        <title>Perfil do Bueno</title>
 
-    <!--Inserindo favicon (icone que fica ao lado do título da minha página)-->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    
-    <!-- Configurações do meu menu -->
-    <style type="text/css">
-    .menu ul li {
-        background-color: rgba(176, 211, 241, 0.898);
-        color:rgb(230, 215, 9);
-        width: 800px;
-        height: 40px;
-        display: inline-block;
-        text-align: center;
-        line-height: 40px;
-        font-size: 20px;
-        font-family: 'Courier New', Courier, monospace;
-        font-display: white;
-    }
-    </style>
-</head>
-<body style="background-color: rgba(176, 211, 241, 0.898);">
-    <nav class="menu">
-        <ul>
+        <!--Inserindo favicon (icone que fica ao lado do título da minha página)-->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+        <!--Instanciando/referenciando o arquivo style onde esta configurado o CSS 
+        para que seja interpretado neste arquivo index.html-->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+    </head>
+
+    <body style="background-color: rgba(176, 211, 241, 0.898);">
+       
+        <ul id="menu" class="center" >
         <li> <a href="index.html"> Home</li></a> 
         <li> <a href="contato.html"> Contato</li></a>
+        <li>Aventuras</li>
+        <li>Incluir menu</li>
+        <li>Incluir menu</li>
+        <li>Incluir menu</li>
         </ul>
-    </nav>
-    <br>
-    <!-- Título do meu paragrafo -->
-    <br>
-    <h2>Sobre mim</h2>
-    
-    <!--minha imagem que inclui no "sobre mim" -->
-    <img src="assets/img/buenovj.JPG" 
-    width="360" 
-    height="330" 
-    alt="Foto Bueno, o criador da página">
-    <!--width é a largura da minha imagem-->
-    <!--height é a altura da minha imagem--> 
-    <!-- paragrafo incluso na página -->
-    <p>
-        &#x1F913; Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad temporibus accusamus sed, quasi, expedita, deleniti quae iure sit eaque aliquam illum. Fuga non illo, eum numquam fugit dignissimos esse modi &#x1F601;
-    </p>
-    
-    <h2>Experiências</h2>
-    <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi voluptas ea labore iure? Magni incidunt repellat neque aliquid ipsam veritatis sit adipisci culpa molestiae molestias? Officia totam fuga veniam nihil!
-    </p>
+        
+        
 
-    <p>
-        <h2>Música mais tocada no meu spotify nas últimas semanas</h2>
-        <p> &#x1F3B5; </p>
-        <iframe
-        width="500" 
-        height="315" 
-        src="https://www.youtube.com/embed/adLGHcj_fmA?start=6" 
-        title="YouTube video player" 
-        frameborder="100" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-    </iframe>
-    </p>
-    
-</body>
+        <div class="container">
+
+            <div class="p-30">
+                    <!-- Título do meu paragrafo -->
+                    <h2 class="center" >Sobre mim</h2>
+
+                    <div class="container">
+                    <!--minha imagem que inclui no "sobre mim" -->
+                    <img class="br-50"  src="assets/img/buenovj.JPG" 
+                    width="360" 
+                    height="330" 
+                    alt="Foto Bueno, o criador da página">
+                    <!--width é a largura da minha imagem-->
+                    <!--height é a altura da minha imagem--> 
+
+                    </div>
+
+                    <!-- paragrafo incluso na página -->
+                    <p class="center justificado">
+                    &#x1F913; Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad temporibus accusamus sed, quasi, expedita, deleniti quae iure sit eaque aliquam illum. Fuga non illo, eum numquam fugit dignissimos esse modi &#x1F601;
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, corporis porro. Fugit rerum quod libero qui velit inventore! Ab perferendis odio excepturi consequatur vel, quod eveniet tempora facilis cupiditate ipsa!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dicta labore fugiat ea. Quibusdam doloribus soluta accusamus voluptatibus? Vitae qui necessitatibus commodi odio expedita maxime voluptate soluta labore illo perspiciatis!
+                    </p>
+
+                    <br>
+
+                    <!-- Título do meu paragrafo -->
+                    <h2 class="center" >Experiências</h2>
+
+                    <!-- paragrafo incluso na página -->
+                    <p class="center justificado">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi voluptas ea labore iure? Magni incidunt repellat neque aliquid ipsam veritatis sit adipisci culpa molestiae molestias? Officia totam fuga veniam nihil!
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero quo, ab aperiam ipsa facere vitae hic veniam earum illo, velit illum atque modi molestiae? Natus expedita laborum perspiciatis vel placeat?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quas incidunt nihil quidem quae alias et eligendi, accusantium culpa velit harum animi, cupiditate pariatur odio! Laborum perspiciatis in inventore sapiente.
+                    </p>
+
+                    <br>
+
+                    <div>
+                       
+                    <!--Paragrafo para inclusão dos vídeos-->    
+                    <p>
+                        <h2 class="center" >TOP 03 músicas mais tocadas no meu spotify na última semana &#x1F3B5;</h2>
+                
+                        <iframe 
+                        src="https://open.spotify.com/embed/track/7MAibcTli4IisCtbHKrGMh" 
+                        width="315" 
+                        height="315" 
+                        frameBorder="100" 
+                        allowtransparency="true" 
+                        allow="encrypted-media">
+                        </iframe>
+
+                        <iframe 
+                        src="https://open.spotify.com/embed/track/0YBq701BXkMaK6V5UyvOpT" 
+                        width="315" 
+                        height="315" 
+                        frameBorder="100" 
+                        allowtransparency="true" 
+                        allow="encrypted-media">
+                        </iframe>
+
+                        <iframe 
+                        src="https://open.spotify.com/embed/track/6Tvzf3VEi16JMhAgOwdt2y" 
+                        width="315" 
+                        height="315" 
+                        frameBorder="100" 
+                        allowtransparency="true" 
+                        allow="encrypted-media">
+                        </iframe>
+
+                    </p>
+
+
+
+                </div>
+
+
+
+            </div>
+        
+        </div>
+
+        <hr> <!--Separando sessão de uma página da outra-->
+
+        <footer>
+
+            <div class="center">
+
+                <a href="https://www.linkedin.com/in/bueno-vital/" target="_blank"> 
+                    <img class="tam-log-social" src="assets/img/linkedin.png" alt="logo linkedin"><a>
+                
+                <a href="https://www.instagram.com/" target="_blank"> 
+                    <img class="tam-log-social" src="assets/img/instagram.png" alt="logo instagram" ></a>
+
+            </div>
+
+            <p class="center">
+                Todos os direitos reservados: Bueno Vital &copy;
+            </p>
+         
+        </footer>
+
+    </body>
+
 </html>
